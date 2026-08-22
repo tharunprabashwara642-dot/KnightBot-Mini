@@ -4,11 +4,11 @@
 
 module.exports = {
     // Bot Owner Configuration
-    ownerNumber: ['9876543210'], // Add your number without + or spaces (e.g., 919876543210)
-    ownerName: ['Knight Bot'], // Owner names corresponding to ownerNumber array
+    ownerNumber: ['94775585251'], // Add your number without + or spaces (e.g., 919876543210)
+    ownerName: ['THARUN PRABASHWARA'], // Owner names corresponding to ownerNumber array
     
     // Bot Configuration
-    botName: 'Knight Bot Mini',
+    botName: 'THARUN-AI ASSISTANT V2',
     prefix: ',',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
@@ -19,7 +19,7 @@ module.exports = {
     packname: 'Knight Bot',
     
     // Bot Behavior
-    selfMode: false, // Private mode - only owner can use commands
+    selfMode: true, // Private mode - only owner can use commands
     autoRead: false,
     autoTyping: false,
     autoBio: false,
@@ -75,11 +75,11 @@ module.exports = {
     //   GEMINI_API_KEY=single_key
     //   GEMINI_API_KEYS=key_one,key_two,key_three
     gemini: {
-      apiKeys: [
+      apiKeys: ['AQ.Ab8RN6IVfJpsxNV8PwI8U51MXmMtqeQd5FSjNLj9uG2n_k80CA', 'AQ.Ab8RN6KV7ia0NebQUVSQHZDTWBWTci9PkuwdgJGi33ZGuquhgQ', 'AQ.Ab8RN6LbnIncTgKWWlO1A_ecSR-pKMOJsVLnDps4swrSVpFTpQ', 'AQ.Ab8RN6K-pO4oG_mzhXTFF6VNTaJMHZaQHTjZRPdW1pDZIOmVJg', 'AQ.Ab8RN6JIcymPpYr9KnsNjvkcsTzKVjQcDg8axyXSRsPvuWL5ow', 'AQ.Ab8RN6JgooyUDFc0VAWCCA7PpkHXUB4aRss5uk4PLIk6eLVBxQ', 'AQ.Ab8RN6ILdTlnRB5Y0h4ljvJFpJLM2K6GrfatuXXYei4Wh91cJg'
         // 'YOUR_GEMINI_API_KEY_1',
         // 'YOUR_GEMINI_API_KEY_2',
       ],
-      model: 'gemini-2.5-flash' // or 'gemini-2.5-pro', etc.
+      model: 'gemini-3.5-flash-lite' // or 'gemini-2.5-pro', etc.
     },
 
     // Self-Evolve Configuration (autonomous self-code-editing via .evolve).
@@ -90,7 +90,7 @@ module.exports = {
     // so changes can be checked out / rolled back.
     // Can also be enabled via env var: ALLOW_SELF_EVOLVE=true
     selfEvolve: {
-      enabled: false
+      enabled: true
     },
     
     // Message Configuration
@@ -100,23 +100,23 @@ module.exports = {
       error: '❌ Error occurred!',
       ownerOnly: '👑 This command is only for bot owner!',
       adminOnly: '🛡️ This command is only for group admins!',
-      groupOnly: '👥 This command can only be used in groups!',
+      roupOnly: '👥 This command can only be used in groups!',
       privateOnly: '💬 This command can only be used in private chat!',
       botAdminNeeded: '🤖 Bot needs to be admin to execute this command!',
       invalidCommand: '❓ Invalid command! Type .menu for help'
     },
     
     // Timezone
-    timezone: 'Asia/Kolkata',
+    timezone: 'Asia/colombo',
     
     // Limits
     maxWarnings: 3,
     
     // Social Links (optional)
     social: {
-      github: 'https://github.com/mruniquehacker',
-      instagram: 'https://instagram.com/yourusername',
-      youtube: 'http://youtube.com/@mr_unique_hacker'
+      github: 'https://github.com/tharunprabashwara642-dot',
+      whatsapp: 'https://wa.me/qr/F44PLLVHT35EH1',
+      facebook: 'https://www.facebook.com/share/19PnykWkum/?mibextid=wwXIfr'
     }
 };
   
