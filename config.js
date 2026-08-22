@@ -9,7 +9,7 @@ module.exports = {
     
     // Bot Configuration
     botName: 'THARUN-AI ASSISTANT V2',
-    prefix: ',',
+    prefix: '.',
     sessionName: 'session',
     sessionID: process.env.SESSION_ID || '',
     newsletterJid: '120363161513685998@newsletter', // Newsletter JID for menu forwarding
@@ -79,7 +79,7 @@ module.exports = {
         // 'YOUR_GEMINI_API_KEY_1',
         // 'YOUR_GEMINI_API_KEY_2',
       ],
-      model: 'gemini-3.5-flash-lite' // or 'gemini-2.5-pro', etc.
+      model: 'gemini-2.5-pro' // or 'gemini-2.5-pro', etc.
     },
 
     // Self-Evolve Configuration (autonomous self-code-editing via .evolve).
