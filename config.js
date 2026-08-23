@@ -79,7 +79,7 @@ module.exports = {
         // 'YOUR_GEMINI_API_KEY_1',
         // 'YOUR_GEMINI_API_KEY_2',
       ],
-      model: 'gemini-2.5-pro' // or 'gemini-2.5-pro', etc.
+      model: 'gemini-3.5-flash' // or 'gemini-2.5-pro', etc.
     },
 
     // Self-Evolve Configuration (autonomous self-code-editing via .evolve).
