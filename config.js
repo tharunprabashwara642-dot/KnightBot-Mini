@@ -75,7 +75,7 @@ module.exports = {
     //   GEMINI_API_KEY=single_key
     //   GEMINI_API_KEYS=key_one,key_two,key_three
     gemini: {
-      apiKeys: ['AQ.Ab8RN6IVfJpsxNV8PwI8U51MXmMtqeQd5FSjNLj9uG2n_k80CA', 'AQ.Ab8RN6KV7ia0NebQUVSQHZDTWBWTci9PkuwdgJGi33ZGuquhgQ', 'AQ.Ab8RN6LbnIncTgKWWlO1A_ecSR-pKMOJsVLnDps4swrSVpFTpQ', 'AQ.Ab8RN6K-pO4oG_mzhXTFF6VNTaJMHZaQHTjZRPdW1pDZIOmVJg', 'AQ.Ab8RN6JIcymPpYr9KnsNjvkcsTzKVjQcDg8axyXSRsPvuWL5ow', 'AQ.Ab8RN6JgooyUDFc0VAWCCA7PpkHXUB4aRss5uk4PLIk6eLVBxQ', 'AQ.Ab8RN6ILdTlnRB5Y0h4ljvJFpJLM2K6GrfatuXXYei4Wh91cJg'
+      apiKeys: ['AQ.Ab8RN6Knsosl0-TEu9DguEMuv5eEsd6Yl_Z28gDg9sNsQAFbhw'
         // 'YOUR_GEMINI_API_KEY_1',
         // 'YOUR_GEMINI_API_KEY_2',
       ],
