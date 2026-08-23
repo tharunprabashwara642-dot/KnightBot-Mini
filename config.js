@@ -75,7 +75,7 @@ module.exports = {
     //   GEMINI_API_KEY=single_key
     //   GEMINI_API_KEYS=key_one,key_two,key_three
     gemini: {
-      apiKeys: ['AQ.Ab8RN6LnmIKaFje1BVYzeFY3yR4AdHonkWV4H1WS9Q6Z20JWAw'
+      apiKeys: [
         // 'YOUR_GEMINI_API_KEY_1',
         // 'YOUR_GEMINI_API_KEY_2',
       ],
